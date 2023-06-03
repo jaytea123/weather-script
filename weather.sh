@@ -1,3 +1,7 @@
 #!/bin/bash
 
-echo "Hello, World"
+echo "Enter zip code"
+
+read zip
+
+curl wttr.in/$zip?u
